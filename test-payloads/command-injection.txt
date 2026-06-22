@@ -1,0 +1,6 @@
+test; whoami
+test && whoami
+test ||id
+test | ls
+
+127.0.0.1; cat /etc/passwd

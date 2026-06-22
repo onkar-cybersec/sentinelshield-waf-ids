@@ -1,0 +1,25 @@
+SentinelShield Architecture
+
+1. User / Attacker
+   Sends normal or malicious HTTP requests through the browser.
+
+2. Flask Web Application
+   Receives incoming requests through the /search endpoint.
+
+3. Request Inspector
+   Extracts user input from the HTTP GET parameter.
+
+4. Rule-Based Detection Engine
+   Compares user input against predefined attack signatures.
+
+5. Rate Limiting Module
+   Tracks request frequency from each IP address.
+
+6. Decision Engine
+   Allows normal requests and blocks malicious or abusive requests.
+
+7. Logging System
+   Stores timestamp, IP address, input, result, and detection category.
+
+8. Dashboard
+   Displays request summary, blocked requests, allowed requests, and security logs.
