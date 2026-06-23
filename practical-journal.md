@@ -63,7 +63,7 @@ http://127.0.0.1:5000
 ```
 
 **Screenshot:**
-`![Basic Flask Application](screenshots/01_basic_web_app.jpg)`
+![Basic Flask Application](screenshots/01_basic_web_app.jpg)
 
 ---
 
@@ -101,7 +101,7 @@ A SQL Injection payload was submitted:
 The system detected the payload as SQL Injection and blocked the request.
 
 **Screenshot:**
-`![SQL Injection Blocked](screenshots/02_sql_injection_blocked.jpg)`
+![SQL Injection Blocked](screenshots/02_sql_injection_blocked.jpg)
 
 ---
 
@@ -117,7 +117,7 @@ An XSS payload was submitted:
 The system detected the payload as XSS and blocked the request.
 
 **Screenshot:**
-`![XSS Blocked](screenshots/03_xss_blocked.jpg)`
+![XSS Blocked](screenshots/03_xss_blocked.jpg)
 
 ---
 
@@ -133,7 +133,7 @@ A directory traversal payload was submitted:
 The system detected the payload as Directory Traversal / LFI and blocked the request.
 
 **Screenshot:**
-`![LFI Blocked](screenshots/04_lfi_blocked.jpg)`
+![LFI Blocked](screenshots/04_lfi_blocked.jpg)
 
 ---
 
@@ -149,7 +149,7 @@ test; whoami
 The system detected command injection indicators and blocked the request.
 
 **Screenshot:**
-`![Command Injection Blocked](screenshots/05_command_injection_blocked.jpg)`
+![Command Injection Blocked](screenshots/05_command_injection_blocked.jpg)
 
 ---
 
@@ -161,7 +161,7 @@ Multiple normal requests were submitted quickly from the same IP address.
 After more than 5 requests within 60 seconds, the system blocked the request as abusive traffic.
 
 **Screenshot:**
-`![Rate Limit Blocked](screenshots/06_rate_limit_blocked.jpg)`
+![Rate Limit Blocked](screenshots/06_rate_limit_blocked.jpg)
 
 ---
 
@@ -178,7 +178,7 @@ The log entries contained:
 * Detection category
 
 **Screenshot:**
-`![Log File Evidence](screenshots/07_log_file.jpg)`
+![Log File Evidence](screenshots/07_log_file.jpg)
 
 ---
 
@@ -198,7 +198,7 @@ The dashboard displayed:
 * Raw security logs
 
 **Screenshot:**
-`![Dashboard View](screenshots/08_dashboard.jpg)`
+![Dashboard View](screenshots/08_dashboard.jpg)
 
 ---
 
@@ -212,7 +212,7 @@ The issue was fixed by applying HTML escaping before displaying logs.
 After the fix, malicious payloads were displayed as text and did not execute.
 
 **Screenshot:**
-`![Dashboard XSS Fixed](screenshots/09_dashboard_xss_fixed.jpg)`
+![Dashboard XSS Fixed](screenshots/09_dashboard_xss_fixed.jpg)
 
 ## 5. Log Interpretation
 
